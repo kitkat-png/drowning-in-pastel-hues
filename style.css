@@ -58,6 +58,9 @@ footer p {
 li {
     font-family: Arial, Helvetica, sans-serif;
 }
+.flex {
+    display: flex;
+}
 /* 2xl
 @media (max-width: 1536px) {
 
@@ -76,10 +79,12 @@ li {
         width: 70vw;
     }
 } 
-/* sm 
+/* sm */
 @media (max-width: 640px) {
-
-} */
+    .flex {
+        display: block;
+    }
+} 
  /* xs */ 
  @media (max-width: 475px) {
     header, main {
