@@ -2,12 +2,15 @@
 :root {
     --pastelpink: #ffecf0;
     --darkerpink: #ffdee4;
+    --evendarkerpink: #f7bbc6;
     --pastelblue: #eff9fd;
     --darkerblue: #c8e8fc;
     --headerlinkcolor: #b75164;
 }
 body {
-    background-color: var(--darkerpink);
+    background-image: url(images/background.png);
+    background-color: var(--evendarkerpink);
+    background-repeat: no-repeat;
 }
 h1, h2, h3 {
     font-family: "Anybody", monospace;
