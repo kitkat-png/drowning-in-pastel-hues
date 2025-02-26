@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --pastelpink: #ffecf0;
+    --darkerpink: #ffdee4;
+    --pastelblue: #eff9fd;
+    --darkerblue: #c8e8fc;
+    --headerlinkcolor: #b75164;
+}
+body {
+    background-color: var(--darkerpink);
+}
+h1, h2, h3 {
+    font-family: "Anybody", monospace;
+}
+header, main {
+    background-color: var(--pastelpink);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    margin-bottom: 30px;
+}
+header nav a {
+    text-decoration: none;
+    color: var(--headerlinkcolor);
+}
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+header nav li {
+    padding: 8px;
+    background-color: var(--darkerpink);
+    border-radius: 5px;
+    width: max-content;
+    margin: auto;
+}
+footer {
+    font-size: small;
+    text-align: center;
+}
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 2xl
+@media (max-width: 1536px) {
+
+} */
+/* xl  
+@media (max-width: 1280px) {
+
+} */
+/* lg 
+@media (max-width: 1024px) {
+
+} */
+/* md */ 
+@media (max-width: 768px) {
+    header, main {
+        width: 70vw;
+    }
+} 
+/* sm 
+@media (max-width: 640px) {
+
+} */
+ /* xs */ 
+ @media (max-width: 475px) {
+    header, main {
+        width: 80vw;
+    }
+ }
